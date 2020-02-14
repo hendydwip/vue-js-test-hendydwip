@@ -2,11 +2,11 @@ const city = ['Jakarta', 'Aceh', 'Malang', 'Medan', 'Bontang', 'Jogja', 'Jakarta
 
 function duplicateRemover(city) {
   temp = []
-  for(value of city){
-    if(temp.indexOf(value) === -1){
-      temp.push(value)
+  city.filter(function(kota) {
+    if(temp.indexOf(kota) === -1){
+      temp.push(kota)
     }
-  }
+  })
   return temp
 } 
 
