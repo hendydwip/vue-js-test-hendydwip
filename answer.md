@@ -15,7 +15,7 @@ new Vuew({
 Mounted
 
 ### How to bind vue property to page ?
-Untuk bind ke page, vue perlu menembak ke id pusat contoh <div id='app'></div>, lalu di script Vue
+Untuk bind ke page, vue perlu menembak ke id pusat contoh ```<div id='app'></div>```, lalu di script Vue
 ```javascript
 new Vuew({
   el:'#app'
@@ -40,7 +40,7 @@ Contoh untuk bind properti class dengan cara menambahkan v-bind:class='' atau si
 Pada tag html di berikan v-if, dan pada level yang sama dengan tag sebelumnya diberikan v-else
 
 ### How we can render list in vue ?
-Yang dimaksud mungkin perulangan menggukanan v-for, contoh memiliki data Array. Lalu declare perulangan di tag list seperti berikut <li v-for='array in DataArray'></li>
+Yang dimaksud mungkin perulangan menggukanan v-for, contoh memiliki data Array. Lalu declare perulangan di tag list seperti berikut ```<li v-for='array in DataArray'></li>```
 
 ### If we rendering list there must be bind key tag describe usage of it ?
 Berguna untuk menandai setiap node yang render
